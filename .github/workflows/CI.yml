@@ -16,7 +16,7 @@ jobs:
         uses: actions/checkout@v2
         
       - name: Update build number
-        uses: mclift/build-count-action@v0.2
+        uses: mclift/build-count-action@v0.3
         with: 
           version-component: build
 
