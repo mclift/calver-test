@@ -21,4 +21,4 @@ jobs:
           version-component: build
 
       - name: Get the New Version
-        run: echo "New version is ${{ steps.increment-git-tag.outputs.new-version }}"
+        run: echo "New version is ${{ steps.build-count-action.outputs.new-version }}"
