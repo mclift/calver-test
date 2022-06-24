@@ -17,6 +17,7 @@ jobs:
         
       - name: Update build number
         uses: mclift/build-count-action@v0.4
+        id: build-count-action
         with: 
           version-component: build
 
